@@ -1,0 +1,53 @@
+* { font-family: monospace; }
+
+#playGround {
+    position: absolute;
+    width:   98%;
+    height:  85%;
+    border:  1px solid black;
+    top:     1%;
+    left:    1%;
+    right:   1%;
+}
+
+#infos {
+    position: absolute;
+    width:   98%;
+    height:  10%;
+    bottom:  0;
+    left:    1%;
+    right:   1%;
+}
+
+#infos div {
+    font-size: larger;
+    display:   flex;
+    justify-content: center;
+}
+
+#snakeBody {position: relative;}
+
+.snake {
+    position: sticky;
+    background-color: red;
+    color: red;
+    font-size: 1em;
+    margin: 0px 0px 0px 0px;
+}
+
+#head {
+    top:  50%;
+    left: 50%;
+}
+
+.tail{}
+
+#food { position: sticky; }
+
+.scores { padding: 0.5% 0.5% 0.5% 0.5%; }
+
+.images {
+    height: 5%;
+    background: transparent;
+    width: auto;
+}
