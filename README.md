@@ -1,1 +1,2 @@
 # JSnake
+UNDER CONSTRUCTION xD
